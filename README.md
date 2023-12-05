@@ -26,7 +26,7 @@ Interface: Google Colab Pro
 In the "Dataset/" directory, you'll find two files: "valid.h5" for validation and "test.h5" for testing purposes. Additionally, there's a "Models/" directory where you can store the original model, modified models, and the advanced GoodNet model.
 
 ## Data
-I have used data from the github repository https://github.com/csaw-hackml/CSAW-HackML-2020 for this lab. The data under lab3 folder has been used. The folder 'cl' contains clean test and validation data and the folder 'bd' contains poisoned test and validation data
+I have used data from the github repository https://github.com/csaw-hackml/CSAW-HackML-2020 for this lab. The data under lab3 folder has been used. The folder 'cl' contains clean test and validation data and the folder 'bd' contains poisoned test and validation data [https://drive.google.com/drive/folders/13o2ybRJ1BkGUvfmQEeZqDo1kskyFywab]
 The dataset contains images from YouTube Aligned Face Dataset. We retrieve 1283 individuals each containing 9 images in the validation dataset.
 
 ## Procedure
