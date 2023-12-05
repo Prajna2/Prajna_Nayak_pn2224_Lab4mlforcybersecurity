@@ -12,9 +12,8 @@ Net ID: pn2224
 3. [Repository Structure](#repository-structure)
 4. [Data](#data)
 5. [Procedure](#procedure)
-6. [Evaluating the Compromised Model](#evaluating-the-compromised-model)
-7. [Contributions](#contributions)
-8. [Acknowledgements](#acknowledgements)
+6. [Contributions](#contributions)
+7. [Acknowledgements](#acknowledgements)
 
 ## Overview
 This repository contains the code for a cutting-edge neural network backdoor detection system. The main objective of this project is to improve the security of neural networks, specifically those trained on the YouTube Face dataset and potentially compromised by malicious alterations. The project introduces an innovative model called GoodNet, designed to distinguish between legitimate and compromised inputs, classifying them into distinct categories.
@@ -24,10 +23,10 @@ Execution Environment: MacBook Pro equipped with M1 chip
 Interface: Google Colab Pro
 
 ## Repository Structure
-In the "Dataset/" directory, you'll find two files: "valid.h5" for validation and "test.h5" for testing purposes. Additionally, there's a "Saved_Models/" directory where you can store the original model, modified models, and the advanced GoodNet model.
+In the "Dataset/" directory, you'll find two files: "valid.h5" for validation and "test.h5" for testing purposes. Additionally, there's a "Models/" directory where you can store the original model, modified models, and the advanced GoodNet model.
 
 ## Data
-I have used data from th github repository https://github.com/csaw-hackml/CSAW-HackML-2020 for this lab. The data under lab3 folder has been used. The folder 'cl' contains clean test and validation data and the folder 'bd' contains poisoned test and validation data
+I have used data from the github repository https://github.com/csaw-hackml/CSAW-HackML-2020 for this lab. The data under lab3 folder has been used. The folder 'cl' contains clean test and validation data and the folder 'bd' contains poisoned test and validation data
 The dataset contains images from YouTube Aligned Face Dataset. We retrieve 1283 individuals each containing 9 images in the validation dataset.
 
 ## Procedure
